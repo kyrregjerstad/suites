@@ -2,14 +2,10 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "target": "esnext",
-    "module": "esnext",
+    "module": "es2022",
     "experimentalDecorators": true,
     "allowJs": true
   },
-  "include": [
-    "*e2e.test.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["*e2e.test.ts"],
+  "exclude": ["node_modules"]
 }

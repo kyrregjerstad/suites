@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "es2022",
     "declaration": false,
     "removeComments": true,
     "emitDecoratorMetadata": true,
